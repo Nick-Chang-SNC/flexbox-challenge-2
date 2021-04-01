@@ -1,0 +1,105 @@
+/*
+////// For this challenge ///////
+
+- All text is in the text.md file
+
+// Requirements
+1. Refer to the design specs for the
+   overall layout
+2. The image should line up with
+   the sidebar in the section
+   below
+
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Element selectors */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* Layout selectors */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4em 0;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  margin: 0 auto;
+}
+
+.col + .col {
+  margin-left: .75em;
+}
+
+/* Banner layout */
+.banner {
+  background-color: #23424A;
+}
+
+.banner__text {
+  color: white;
+}
+
+.banner__img {
+  max-width: 100%;
+}
+
+.banner__btn {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: #38CFD9;
+  margin-top: 1em;
+  padding: .75em 1.25em;
+  border-radius: 100px;
+}
+
+.banner__btn:hover,
+.banner__focus {
+  opacity: .75;
+}
+
+/* Main layout */
+.main__text {
+  color: #136C72;
+}
+
+/* Sidebar layout */
+.sidebar {
+  background-color: #136C72;
+  padding: .75em 2em;
+}
+
+.sidebar__text {
+  text-align: center;
+  color: white;
+}
