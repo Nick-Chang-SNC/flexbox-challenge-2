@@ -54,6 +54,7 @@ p {
 
 .col {
   margin: 0 auto;
+  width: 50%;
 }
 
 .col + .col {
@@ -70,6 +71,7 @@ p {
 }
 
 .banner__img {
+  width: 40%;
   max-width: 100%;
 }
 
@@ -97,6 +99,7 @@ p {
 .sidebar {
   background-color: #136C72;
   padding: .75em 2em;
+  width: 40%;
 }
 
 .sidebar__text {
